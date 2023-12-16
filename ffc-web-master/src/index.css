@@ -1,0 +1,24 @@
+.istar:before {
+  content: "★";
+}
+
+.drag {
+  display: flex;
+  cursor: grab;
+}
+
+.shimmer {
+  animation: pulseanim 1.5s infinite;
+}
+
+@keyframes pulseanim {
+  0% {
+    opacity: .6;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: .6;
+  }
+}

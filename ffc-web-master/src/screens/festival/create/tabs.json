@@ -1,0 +1,27 @@
+[
+	{
+		"sr": 1,
+		"title": "Festival Details",
+		"completed": false
+	},
+	{
+		"sr": 2,
+		"title": "Contact & Venue",
+		"completed": true
+	},
+	{
+		"sr": 3,
+		"title": "Dates & Deadlines",
+		"completed": false
+	},
+	{
+		"sr": 4,
+		"title": "Category & Entry Fees",
+		"completed": false
+	},
+	{
+		"sr": 5,
+		"title": "Listing Settings",
+		"completed": false
+	}
+]

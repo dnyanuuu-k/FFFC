@@ -1,0 +1,27 @@
+[
+	{
+		"sr": 1,
+		"title": "Project Information",
+		"completed": false
+	},
+	{
+		"sr": 2,
+		"title": "Submitter Information",
+		"completed": true
+	},
+	{
+		"sr": 3,
+		"title": "Credits",
+		"completed": false
+	},
+	{
+		"sr": 4,
+		"title": "Specifications",
+		"completed": false
+	},
+	{
+		"sr": 5,
+		"title": "Screenings / Distribution",
+		"completed": false
+	}
+]

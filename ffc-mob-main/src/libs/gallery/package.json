@@ -1,0 +1,10 @@
+{
+  "name": "react-native-stfalcon-gallery",
+  "version": "1.1.0",
+  "description": "React Native Client for the stfalcon image viewer",
+  "main": "src/index.js",
+  "typings": "src/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

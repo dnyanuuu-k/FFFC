@@ -1,0 +1,39 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    ext {
+        buildToolsVersion = "33.0.0"
+        minSdkVersion = 21
+        compileSdkVersion = 33
+        targetSdkVersion = 33
+        kotlinVersion = "1.8.10"
+
+        // We use NDK 23 which has both M1 support and is the side-by-side NDK version from AGP.
+        ndkVersion = "23.1.7779620"
+    }
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("com.android.tools.build:gradle:7.3.1")
+        classpath("com.facebook.react:react-native-gradle-plugin")
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+        // This private repository is required to resolve the Cardinal SDK transitive dependency.
+        maven {
+            url  "https://cardinalcommerceprod.jfrog.io/artifactory/android"
+            credentials {
+                // Be sure to add these non-sensitive credentials in order to retrieve dependencies from
+                // the private repository.
+                username 'paypal_sgerritz'
+                password 'AKCp8jQ8tAahqpT5JjZ4FRP2mW7GMoFZ674kGqHmupTesKeAY2G8NcmPKLuTxTGkKjDLRzDUQ'
+            }
+        }
+        jcenter()
+    }
+}

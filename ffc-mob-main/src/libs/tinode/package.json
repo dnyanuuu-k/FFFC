@@ -1,0 +1,9 @@
+{
+  "name": "react-native-tinode-client",
+  "version": "1.1.0",
+  "main": "index.js",
+  "description": "React Native client for the tinode",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
